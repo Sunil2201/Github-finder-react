@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card-body :where(p){
+    flex-grow: 0 !important;
+}
+.custom-card-image .card.image-full:before{
+    border-radius: 0.5rem;
+    opacity: 0.45;
+}
