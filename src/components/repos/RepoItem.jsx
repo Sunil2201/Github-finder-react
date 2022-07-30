@@ -31,7 +31,7 @@ function RepoItem({repo}) {
                     <div className="mr-2 badge badge-error badge-lg">
                         <FaInfo className='mr-2'/> {open_issues}
                     </div>
-                    <div className="mr-2 badge badge-warning badge-lg">
+                    <div className="mr-2 mt-1 badge badge-warning badge-lg">
                         <FaUtensils className='mr-2'/> {forks}
                     </div>
                 </div>
