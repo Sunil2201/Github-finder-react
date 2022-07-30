@@ -84,7 +84,7 @@ function User() {
                             </a>
                         </div>
                     </div>
-                    <div className="w-full rounded-lg shadow-md bg-base-100 stats">
+                    <div className="w-full rounded-lg shadow-md bg-base-100 stats stats-vertical lg:stats-horizontal shadow">
                         {location && (
                             <div className="stat">
                                 <div className="stat-title text-md">
@@ -118,7 +118,7 @@ function User() {
                     </div>
                 </div>
             </div>
-            <div className="w-full py-5 mb-6 rounded-lg shadow-md bg-base-100 stats">
+            <div className="w-full py-5 mb-6 rounded-lg shadow-md bg-base-100 stats stats-vertical lg:stats-horizontal shadow">
                 <div className="stat">
                     <div className="stat-figure text-secondary">
                         <FaUsers className='text-3xl md:text-5xl' />

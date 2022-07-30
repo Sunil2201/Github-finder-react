@@ -9,3 +9,11 @@
     border-radius: 0.5rem;
     opacity: 0.45;
 }
+.stat{
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+}
+.py-5{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
